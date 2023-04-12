@@ -1,10 +1,8 @@
-# grafana-json-api-infinity-datasource-apache-echarts
+# grafana-cadvisor-node-exporter-apache-echarts-prometheus-alertmanager
 
-# 🚀 JSON API and Infinity Data Source tutorial for Grafana | How to display unemployment rate 🚀
+# 🚀 Grafana Prometheus Node-Exporter cAdvisor - Docker Monitoring Stack Topics docker monitoring grafana prometheus cadvisor node-exporter 🚀
 
-JSON API and Infinity data sources demonstration for beginners. Using API, you can display data from any open dataset. Follow the video to get started!
-
-https://github.com/coding-to-music/grafana-json-api-infinity-datasource-apache-echarts
+https://github.com/coding-to-music/grafana-cadvisor-node-exporter-apache-echarts-prometheus-alertmanager
 
 From / By https://www.youtube.com/watch?v=B4Uj1n4Cr88&ab_channel=VolkovLabs
 
@@ -24,9 +22,9 @@ https://grafana.com/grafana/plugins/marcusolsson-static-datasource/
 
 ## user interfaces:
 
-- Grafana http://localhost:3000
 - Grafana http://localhost:4000
-- Grafana http://localhost:8086
+- Alertmanager http://localhost:9093
+- Prometheus http://localhost:9090
 
 ## GitHub
 
@@ -36,7 +34,7 @@ git add .
 git remote remove origin
 git commit -m "first commit"
 git branch -M main
-git remote add origin git@github.com:coding-to-music/grafana-json-api-infinity-datasource-apache-echarts.git
+git remote add origin git@github.com:coding-to-music/grafana-cadvisor-node-exporter-apache-echarts-prometheus-alertmanager.git
 git push -u origin main
 ```
 
